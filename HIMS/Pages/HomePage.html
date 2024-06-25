@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="../style/Navbar.css">
+    <link rel="stylesheet" href="../style/Home.css">
+    <link rel="stylesheet" href="../style/Footer.css">
+    <title>Home</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Logo</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item dropdown">
+                        <a href="#" class="nav__link dropbtn">Programs Offered</a>
+                        <div class="dropdown-content">
+                            <a href="#">Bachelors in Nursing (BSN) 4 Years</a>
+                            <a href="#">Post Registered Nurse (Post RN BSN) 2 Years</a>
+                        </div>
+                    </li>
+                    <li class="nav__item dropdown">
+                        <a href="#" class="nav__link dropbtn">Facilities</a>
+                        <div class="dropdown-content">
+                            <a href="#">Well-Furnished Classrooms</a>
+                            <a href="#">Computer/IT Lab</a>
+                            <a href="#">Skill & Science Labs</a>
+                            <a href="#">Library</a>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Contact Us</a>
+                    </li>
+                    <li class="nav__item nav__more dropdown">
+                        <a href="#" class="nav__link dropbtn">More</a>
+                        <div class="dropdown-content nav__dropdown--scroll">
+                            <a href="#">About UET</a>
+                            <a href="#">Vision Statement</a>
+                            <a href="#">Core Values</a>
+                            <a href="#">Board of Directors</a>
+                            <a href="#">Campus Location</a>
+                            <div class="nav__dropdown-item">
+                                <a href="#" class="nav__dropdown-link">Messages</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Chairman’s Message</a>
+                                    <a href="#">Director’s Message</a>
+                                    <a href="#">Principal’s Message</a>
+                                </div>
+                            </div>
+                            <a href="#">Faculty</a>
+                            <a href="#">Scholarship Criteria</a>
+                            <a href="#">Scholarship</a>
+                            <a href="#">Affiliations & MOU</a>
+                            <a href="#">Downloads</a>
+                            <div class="nav__dropdown-item">
+                                <a href="#" class="nav__dropdown-link">Student’s Articles</a>
+                                <div class="dropdown-content">
+                                    <a href="#">The Role Of Nurses In COVID 19</a>
+                                    <a href="#">Challenges of Nursing in Pakistan</a>
+                                </div>
+                            </div>
+                            <div class="nav__dropdown-item">
+                                <a href="#" class="nav__dropdown-link">Policies</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Student’s Code of Conduct</a>
+                                    <a href="#">Policies for Staff</a>
+                                </div>
+                            </div>
+                            <div class="nav__dropdown-item">
+                                <a href="#" class="nav__dropdown-link">Gallery</a>
+                                <div class="dropdown-content">
+                                    <a href="#">Our Institute</a>
+                                    <a href="#">Hera Visit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <!-- Search button -->
+                <i class="ri-search-line nav__search" id="search-btn"></i>
+
+                <!-- Login button -->
+                <i class="ri-user-line nav__login" id="login-btn"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== SEARCH ====================-->
+    <div class="search" id="search">
+        <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="What are you looking for?" class="search__input">
+        </form>
+
+        <i class="ri-close-line search__close" id="search-close"></i>
+    </div>
+
+    <!--==================== LOGIN ====================-->
+    <div class="login" id="login">
+        <form action="" class="login__form">
+            <h2 class="login__title">Log In</h2>
+
+            <div class="login__group">
+                <div>
+                    <label for="email" class="login__label">Email</label>
+                    <input type="email" placeholder="Write your email" id="email" class="login__input">
+                </div>
+
+                <div>
+                    <label for="password" class="login__label">Password</label>
+                    <input type="password" placeholder="Enter your password" id="password" class="login__input">
+                </div>
+            </div>
+
+            <div>
+                <p class="login__signup">
+                    You do not have an account? <a href="#">Sign up</a>
+                </p>
+
+                <a href="#" class="login__forgot"> You forgot your password </a>
+
+                <button type="submit" class="login__button">Log In</button>
+            </div>
+        </form>
+
+        <i class="ri-close-line login__close" id="login-close"></i>
+    </div>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== SLIDER ====================-->
+        <div class="carousel">
+            <div class="carousel_inner">
+                <div class="carousel_item carousel_item__active">
+                    <img src="./img/image1.png" alt="" class="carousel_img">
+                    <div class="carousel_caption">
+                        <h1 class="carousel_title">Change It As You See Fit</h1>
+                        <p class="carousel_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cupiditate corporis laudantium quae velit quam.</p>
+                    </div>
+                </div>
+                <div class="carousel_item">
+                    <img src="./img/image2.png" alt="" class="carousel_img">
+                </div>
+                <div class="carousel_item">
+                    <img src="./img/image3.png" alt="" class="carousel_img">
+                </div>
+            </div>
+
+            <div class="carousel_indicator">
+                <button class="carousel_dot carousel_dot__active"></button>
+                <button class="carousel_dot"></button>
+                <button class="carousel_dot"></button>
+            </div>
+
+            <div class="carousel_control">
+                <button class="carousel_button carousel_button__prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel_button carousel_button__next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <section class="about-hims">
+            <div class="about-hims__content">
+                <h2>ABOUT HIMS<hr></h2>
+                <p>HIMS is a state of the art institute situated in a well-designed spacious structure, right in the middle of 3 famous educational institutions, in an easily accessible locality of Gulabad, Phase III Chowk, Jamrud Road, Peshawar. UET comprises on more than 10 Lecture Halls, a Science Lab, Anatomy Lab, Computer Lab, Library, Examination Hall and a Skill Lab with well-equipped and fully furnished facilities in order to implement and integrate the research, theory and practice of students.</p>
+                <p>HIMS will be one of the leading institutes in the field of Nursing & Health Sciences and will produce quality health care professionals and intellectuals to meet the need or demand of the health care industry. We have been recognized and accredited by Pakistan Nursing Council (PNC) and Higher Education Regulatory Authority (HERA).</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+            <div class="about-hims__image">
+                <img src="https://t4.ftcdn.net/jpg/04/98/14/49/360_F_498144940_DkzvRAkgBv1ILU6DiDeMZr6vUufPOra4.jpg" alt="Welcome to HIMS">
+            </div>
+        </section>
+
+        <!-- Core Values Section -->
+        <section class="core-values">
+            <h2 class="core-values__title">CORE VALUES<hr class="hr_core_values"></h2>
+            <div class="core-values__list">
+                <div class="core-values__item">
+                    <div class="core-values__icon"><i class="fas fa-info"></i></div>
+                    <div class="core-values__label">LEADERSHIP</div>
+                </div>
+                <div class="core-values__item">
+                    <div class="core-values__icon"><i class="fas fa-th"></i></div>
+                    <div class="core-values__label">HOLISM</div>
+                </div>
+                <div class="core-values__item">
+                    <div class="core-values__icon"><i class="fas fa-lightbulb"></i></div>
+                    <div class="core-values__label">INNOVATION</div>
+                </div>
+                <div class="core-values__item">
+                    <div class="core-values__icon"><i class="fas fa-heart"></i></div>
+                    <div class="core-values__label">EMPATHY</div>
+                </div>
+                <div class="core-values__item">
+                    <div class="core-values__icon"><i class="fas fa-exchange-alt"></i></div>
+                    <div class="core-values__label">TRANSFORMATION</div>
+                </div>
+                <div class="core-values__item">
+                    <div class="core-values__icon"><i class="fas fa-hat-wizard"></i></div>
+                    <div class="core-values__label">PRAGMATISM</div>
+                </div>
+                <div class="core-values__item">
+                    <div class="core-values__icon"><i class="fas fa-briefcase"></i></div>
+                    <div class="core-values__label">PROFESSIONALISM</div>
+                </div>
+                <div class="core-values__item">
+                    <div class="core-values__icon"><i class="fas fa-hands-helping"></i></div>
+                    <div class="core-values__label">ALTRUISM</div>
+                </div>
+                <div class="core-values__item">
+                    <div class="core-values__icon"><i class="fas fa-compass"></i></div>
+                    <div class="core-values__label">ADVERSITY</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academics Section -->
+        <section class="academics">
+            <h2 class="academics__title">ACADEMICS</h2>
+            <div class="academics__cards">
+                <div class="academic-card">
+                    <img src="https://c8.alamy.com/comp/T7703G/doctor-checking-heart-beat-of-patient-in-bed-with-stethoscope-T7703G.jpg" alt="BSN Program" class="academic-card__image">
+                    <div class="academic-card__content">
+                        <h3 class="academic-card__title">BACHELORS IN NURSING (BSN) 4 YEARS</h3>
+                        <p class="academic-card__description">The BSN program is spread over 8 semesters and the total credit hours for the overall program is 139, designed by the Higher Education Commission (HEC). The program is recognized by the Pakistan Nursing Council (PNC) and affiliated with Khyber Medical University (KMU), Peshawar.</p>
+                        <a href="#" class="academic-card__button">Learn More</a>
+                    </div>
+                </div>
+                <div class="academic-card">
+                    <img src="https://img.freepik.com/premium-photo/portrait-stethoscope-man-doctor-studio-with-cardiovascular-exam-consultation-blue-background-heart-health-african-male-surgeon-with-medical-tool-heartbeat-breathing_590464-212826.jpg" alt="Post RN BSN Program" class="academic-card__image">
+                    <div class="academic-card__content">
+                        <h3 class="academic-card__title">POST REGISTERED NURSE (POST RN BSN) 2 YEARS</h3>
+                        <p class="academic-card__description">The Post RN BSN program is spread over 4 semesters and the total credit hours of curriculum designed and recognized by Pakistan Nursing Council (PNC) for the overall program is 60. The program is affiliated with Khyber Medical University (KMU) Peshawar.</p>
+                        <a href="#" class="academic-card__button">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Affiliation & MOU Section -->
+        <section class="affiliation">
+            <h2 class="affiliation__title">AFFILIATION & MOU</h2>
+            <div class="affiliation__slider" id="slider">
+                <div class="affiliation__slide">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsaHbwzwoFsQzm-_J2XFnaU9wXoI7jUCHxrQ&s" alt="HERA" class="affiliation__image">
+                    <div class="affiliation__caption">Higher Education Regulatory Authority (HERA)</div>
+                </div>
+                <div class="affiliation__slide">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/KMU_Peshawar.jpg" alt="KMU" class="affiliation__image">
+                    <div class="affiliation__caption">Khyber Medical University (KMU)</div>
+                </div>
+                <div class="affiliation__slide">
+                    <img src="https://media.licdn.com/dms/image/C560BAQGDfKi6ZxZ68A/company-logo_200_200/0/1630636774201?e=2147483647&v=beta&t=Lqiiid2cUH9w0Pu1DaG7F8_XVCM_7VS_yvZNs0Nlr80" alt="PNC" class="affiliation__image">
+                    <div class="affiliation__caption">Pakistan Nursing Council (PNC)</div>
+                </div>
+            </div>
+            <div class="affiliation__controls">
+                <button class="affiliation__control" id="previ">Prev❮</button>
+                <button class="affiliation__control" id="nexts">Next</button>
+            </div>
+        </section>
+
+        <!-- Clinical Training Centers Section -->
+        <section class="training">
+            <h2 class="training__title">CLINICAL TRAINING CENTERS (MOU)</h2>
+            <div class="training__list">
+                <div class="training__item">
+                    <img src="https://media.licdn.com/dms/image/C560BAQHDUiGUlH9odQ/company-logo_200_200/0/1630657092844/lady_reading_hospital_logo?e=2147483647&v=beta&t=kyvjRPG-FCCVUo9aK04ouD_4yVmBwyWcyNafbK9yW1k" alt="Lady Reading Hospital" class="training__image">
+                    <div class="training__caption">Lady Reading Hospital</div>
+                </div>
+                <div class="training__item">
+                    <img src="https://paraplegiccenter.org/wp-content/uploads/2024/05/pcp-logo-512.png" alt="Paraplegic Center Peshawar" class="training__image">
+                    <div class="training__caption">Paraplegic Center Peshawar</div>
+                </div>
+                <div class="training__item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxfrWNUwZYkZeuyruuAWY0NGL1OeVYY0Q1jQ&s" alt="Naseer Teaching Hospital (NTH)" class="training__image">
+                    <div class="training__caption">Naseer Teaching Hospital (NTH)</div>
+                </div>
+            </div>
+        </section>
+
+            <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer__container">
+          <div class="footer__column">
+              <h3 class="footer__title">QUICK LINKS</h3>
+              <ul class="footer__links">
+                  <li><a href="#">Programs Offered</a></li>
+                  <li><a href="#">Scholarship Criteria</a></li>
+                  <li><a href="#">Affiliation & MOU</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Contact Us</a></li>
+              </ul>
+          </div>
+          <div class="footer__column">
+              <h3 class="footer__title">ABOUT US</h3>
+              <ul class="footer__links">
+                  <li><a href="#">About UET</a></li>
+                  <li><a href="#">Vision Statement</a></li>
+                  <li><a href="#">Core Values</a></li>
+                  <li><a href="#">Board of Directors</a></li>
+                  <li><a href="#">Campus Location</a></li>
+              </ul>
+          </div>
+          <div class="footer__column">
+              <h3 class="footer__title">CONTACT US</h3>
+              <ul class="footer__contact">
+                  <li><i class="ri-phone-line"></i> Phone No: 03417012094</li>
+                  <li><i class="ri-whatsapp-line"></i> Mobile/WhatsApp: 03417012094</li>
+                  <li><i class="ri-mail-line"></i> Email: muhammadmaaz07@outlook.com</li>
+                  <li><i class="ri-map-pin-line"></i> Location: Peshawar</li>
+              </ul>
+          </div>
+          <div class="footer__column">
+              <h3 class="footer__title">FOLLOW US ON FACEBOOK</h3>
+              <div class="footer__social">
+                  <input type="text" placeholder="Facebook URL">
+              </div>
+          </div>
+      </div>
+      <div class="footer__bottom">
+          <p>&copy; 2023 Copyright - UET Peshawar</p>
+          <a href="#">Privacy Policy</a>
+      </div>
+  </footer>
+    </main>
+
+
+
+    <script>
+
+      // JavaScript for Slider
+      let slideIndex = 0;
+
+const showSlides = () => {
+const slides = document.querySelectorAll(".affiliation__slide");
+slides.forEach((slide, index) => {
+slide.style.transform = `translateX(${100 * (index - slideIndex)}%)`;
+});
+};
+
+const nextSlide = () => {
+const slides = document.querySelectorAll(".affiliation__slide");
+slideIndex = (slideIndex + 1) % slides.length;
+showSlides();
+};
+
+const prevSlide = () => {
+const slides = document.querySelectorAll(".affiliation__slide");
+slideIndex = (slideIndex - 1 + slides.length) % slides.length;
+showSlides();
+};
+
+document.getElementById("nexts").addEventListener("click", nextSlide);
+document.getElementById("previ").addEventListener("click", prevSlide);
+
+// Auto slide
+setInterval(nextSlide, 3000); // Change slide every 3 seconds
+
+// Initial call
+showSlides();
+
+// Animation on scroll for academic cards
+window.addEventListener("scroll", function () {
+var cards = document.querySelectorAll(".academic-card");
+var windowHeight = window.innerHeight;
+cards.forEach(function (card, index) {
+var cardTop = card.getBoundingClientRect().top;
+if (cardTop < windowHeight - 100) {
+    setTimeout(function () {
+        card.style.opacity = "1";
+        card.style.transform = "translateY(0)";
+    }, index * 200);
+}
+});
+});
+</script>
+    <script src="../js/animations.js"></script>
+    <script src="../js/Slider.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+</html>
