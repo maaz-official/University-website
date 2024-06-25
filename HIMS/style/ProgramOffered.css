@@ -1,0 +1,93 @@
+.programs-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.programs-section h2 {
+    color: #d32f2f;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-bottom: 2px solid #d32f2f;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.program-cards {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+}
+
+.program-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.program-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-content h3 {
+    color: #d32f2f;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.diploma_health{
+    margin-top: 50px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .programs-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .card-content h3 {
+        font-size: 1.3rem;
+    }
+
+    .card-content p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 20px 10px;
+    }
+
+    .programs-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .card-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .card-content p {
+        font-size: 0.8rem;
+    }
+}

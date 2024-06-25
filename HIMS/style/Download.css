@@ -1,0 +1,125 @@
+.download-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.download-section h2 {
+    color: #d32f2f;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-bottom: 2px solid #d32f2f;
+    display: inline-block;
+    padding-bottom: 5px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.download-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 400px;
+    margin: 20px;
+}
+
+.download-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.download-card img {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.download-content {
+    text-align: center;
+}
+
+.download-content h3 {
+    color: #d32f2f;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.download-content p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d32f2f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #b02a2a;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .download-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .download-content h3 {
+        font-size: 1.3rem;
+    }
+
+    .download-content p {
+        font-size: 0.85rem;
+    }
+
+    .download-button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 20px 10px;
+    }
+
+    .download-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .download-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .download-content p {
+        font-size: 0.8rem;
+    }
+
+    .download-button {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+}

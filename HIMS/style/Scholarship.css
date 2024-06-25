@@ -1,0 +1,74 @@
+.scholarship-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.scholarship-section h2 {
+    color: #d32f2f;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-bottom: 2px solid #d32f2f;
+    display: inline-block;
+    padding-bottom: 5px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.scholarship-list {
+    padding-left: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.scholarship-list li {
+    margin-bottom: 10px;
+    animation: slideIn 1s ease-in-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: calc(0.2s * var(--i));
+}
+
+.scholarship-list li:nth-child(1) { --i: 1; }
+.scholarship-list li:nth-child(2) { --i: 2; }
+.scholarship-list li:nth-child(3) { --i: 3; }
+.scholarship-list li:nth-child(4) { --i: 4; }
+.scholarship-list li:nth-child(5) { --i: 5; }
+.scholarship-list li:nth-child(6) { --i: 6; }
+.scholarship-list li:nth-child(7) { --i: 7; }
+.scholarship-list li:nth-child(8) { --i: 8; }
+.scholarship-list li:nth-child(9) { --i: 9; }
+.scholarship-list li:nth-child(10) { --i: 10; }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-20px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .scholarship-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .scholarship-list li {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 20px 10px;
+    }
+
+    .scholarship-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .scholarship-list li {
+        font-size: 0.8rem;
+    }
+}

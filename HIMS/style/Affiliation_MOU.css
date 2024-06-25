@@ -1,0 +1,80 @@
+.affiliations-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.affiliations-section h2 {
+    color: #d32f2f;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-bottom: 2px solid #d32f2f;
+    display: inline-block;
+    padding-bottom: 5px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.affiliations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+}
+
+.affiliation-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.affiliation-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.affiliation-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.affiliation-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .affiliations-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .affiliation-card p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 20px 10px;
+    }
+
+    .affiliations-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .affiliation-card p {
+        font-size: 0.8rem;
+    }
+}

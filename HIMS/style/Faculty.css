@@ -1,0 +1,79 @@
+.faculty-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.faculty-section h2 {
+    color: #d32f2f;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-bottom: 2px solid #d32f2f;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.faculty-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.faculty-member {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.faculty-member:hover {
+    transform: translateY(-10px);
+}
+
+.faculty-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.faculty-member h3 {
+    color: #d32f2f;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.faculty-member p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .faculty-section h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 20px 10px;
+    }
+
+    .faculty-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .faculty-member h3 {
+        font-size: 1rem;
+    }
+
+    .faculty-member p {
+        font-size: 0.8rem;
+    }
+}

@@ -42,3 +42,8 @@ loginBtn.addEventListener('click', () =>{
 loginClose.addEventListener('click', () =>{
    login.classList.remove('show-login')
 })
+
+document.querySelector('.contact-button').addEventListener('click', function(e) {
+   e.preventDefault();
+   document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+});
