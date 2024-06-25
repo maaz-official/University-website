@@ -1,10 +1,16 @@
 # HIMS Web Project
 
+![image](https://github.com/maaz-official/HIMS-website/assets/161757387/d19a72f8-4626-471b-bb87-dee87afe1b49)
+
 Welcome to the HIMS Web Project repository! This project contains the source code for the website of the Health Institute of Medical Sciences (HIMS). The website provides information about the institute, its programs, facilities, affiliations, and more.
 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
+![image](https://github.com/maaz-official/HIMS-website/assets/161757387/379432f1-26d6-48fd-8b03-e8dee5277226)
+![image](https://github.com/maaz-official/HIMS-website/assets/161757387/ab20dd0c-6e66-4e8b-bc57-01768efaebed)
+![image](https://github.com/maaz-official/HIMS-website/assets/161757387/51e891bb-48c3-4d59-a741-b9d812458997)
+
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
