@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - HIMS</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    />
+
+    <link rel="stylesheet" href="../style/About.css" />
+    <link rel="stylesheet" href="../style/Navbar.css" />
+    <link rel="stylesheet" href="../style/Footer.css" />
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Logo</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./HomePage.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item dropdown">
+              <a href="#" class="nav__link dropbtn">Programs Offered</a>
+              <div class="dropdown-content">
+                <a href="#">Bachelors in Nursing (BSN) 4 Years</a>
+                <a href="#">Post Registered Nurse (Post RN BSN) 2 Years</a>
+              </div>
+            </li>
+            <li class="nav__item dropdown">
+              <a href="#" class="nav__link dropbtn">Facilities</a>
+              <div class="dropdown-content">
+                <a href="#">Well-Furnished Classrooms</a>
+                <a href="#">Computer/IT Lab</a>
+                <a href="#">Skill & Science Labs</a>
+                <a href="#">Library</a>
+              </div>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contact Us</a>
+            </li>
+            <li class="nav__item">
+              <a href="./AboutPage.html" class="nav__link">About UET</a>
+            </li>
+            <li class="nav__item nav__more dropdown">
+              <a href="#" class="nav__link dropbtn">More</a>
+              <div class="dropdown-content nav__dropdown--scroll">
+                <div class="nav__dropdown-item">
+                  <a href="./DirectorMessages.html" class="nav__dropdown-link">Messages</a>
+                  <div class="dropdown-content">
+                    <a href="#">Chairman’s Message</a>
+                    <a href="#">Director’s Message</a>
+                    <a href="#">Principal’s Message</a>
+                  </div>
+                </div>
+                <a href="#">Faculty</a>
+                <a href="#">Scholarship Criteria</a>
+                <a href="#">Scholarship</a>
+                <a href="#">Affiliations & MOU</a>
+                <a href="#">Downloads</a>
+                <div class="nav__dropdown-item">
+                  <a href="#" class="nav__dropdown-link">Student’s Articles</a>
+                  <div class="dropdown-content">
+                    <a href="#">The Role Of Nurses In COVID 19</a>
+                    <a href="#">Challenges of Nursing in Pakistan</a>
+                  </div>
+                </div>
+                <div class="nav__dropdown-item">
+                  <a href="#" class="nav__dropdown-link">Policies</a>
+                  <div class="dropdown-content">
+                    <a href="#">Student’s Code of Conduct</a>
+                    <a href="#">Policies for Staff</a>
+                  </div>
+                </div>
+                <div class="nav__dropdown-item">
+                  <a href="#" class="nav__dropdown-link">Gallery</a>
+                  <div class="dropdown-content">
+                    <a href="#">Our Institute</a>
+                    <a href="#">Hera Visit</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__actions">
+          <!-- Search button -->
+          <i class="ri-search-line nav__search" id="search-btn"></i>
+
+          <!-- Login button -->
+          <i class="ri-user-line nav__login" id="login-btn"></i>
+
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== SEARCH ====================-->
+    <div class="search" id="search">
+      <form action="" class="search__form">
+        <i class="ri-search-line search__icon"></i>
+        <input
+          type="search"
+          placeholder="What are you looking for?"
+          class="search__input"
+        />
+      </form>
+
+      <i class="ri-close-line search__close" id="search-close"></i>
+    </div>
+
+    <!--==================== LOGIN ====================-->
+    <div class="login" id="login">
+      <form action="" class="login__form">
+        <h2 class="login__title">Log In</h2>
+
+        <div class="login__group">
+          <div>
+            <label for="email" class="login__label">Email</label>
+            <input
+              type="email"
+              placeholder="Write your email"
+              id="email"
+              class="login__input"
+            />
+          </div>
+
+          <div>
+            <label for="password" class="login__label">Password</label>
+            <input
+              type="password"
+              placeholder="Enter your password"
+              id="password"
+              class="login__input"
+            />
+          </div>
+        </div>
+
+        <div>
+          <p class="login__signup">
+            You do not have an account? <a href="#">Sign up</a>
+          </p>
+
+          <a href="#" class="login__forgot"> You forgot your password </a>
+
+          <button type="submit" class="login__button">Log In</button>
+        </div>
+      </form>
+
+      <i class="ri-close-line login__close" id="login-close"></i>
+    </div>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <div class="header-content">
+        <h1 id="heading_about">ABOUT US</h1>
+      </div>
+      <!-- About Section -->
+      <section class="about-hims">
+        <div class="about-hims__content">
+          <h2>
+            ABOUT HIMS
+            <hr />
+          </h2>
+          <p>
+            HIMS is a state of the art institute situated in a well-designed
+            spacious structure, right in the middle of 3 famous educational
+            institutions, in an easily accessible locality of Gulabad, Phase III
+            Chowk, Jamrud Road, Peshawar. UET comprises on more than 10 Lecture
+            Halls, a Science Lab, Anatomy Lab, Computer Lab, Library,
+            Examination Hall and a Skill Lab with well-equipped and fully
+            furnished facilities in order to implement and integrate the
+            research, theory and practice of students.
+          </p>
+          <p>
+            HIMS will be one of the leading institutes in the field of Nursing &
+            Health Sciences and will produce quality health care professionals
+            and intellectuals to meet the need or demand of the health care
+            industry. We have been recognized and accredited by Pakistan Nursing
+            Council (PNC) and Higher Education Regulatory Authority (HERA).
+          </p>
+          <h3 style="color: red">Vission:</h3>
+          <p>
+            To develop leaders in nursing and health care professions whose
+            performance, discoveries, and voices strengthen and transform the
+            health of individuals and communities in Pakistan & beyond.
+          </p>
+          <h3 style="color: red">Mission</h3>
+          <p style="text-decoration: dashed">
+            To provide our trainee with the highest possible standard of nursing
+            education using all available resources.
+          </p>
+        </div>
+        <div class="about-hims__image">
+          <img
+            src="https://t4.ftcdn.net/jpg/04/98/14/49/360_F_498144940_DkzvRAkgBv1ILU6DiDeMZr6vUufPOra4.jpg"
+            alt="Welcome to HIMS"
+          />
+        </div>
+      </section>
+
+      <!-- Core Values Section -->
+      <section class="core-values">
+        <h2 class="core-values__title">
+          CORE VALUES
+          <hr class="hr_core_values" />
+        </h2>
+        <div class="core-values__list">
+          <div class="core-values__item">
+            <div class="core-values__icon"><i class="fas fa-info"></i></div>
+            <div class="core-values__label">LEADERSHIP</div>
+          </div>
+          <div class="core-values__item">
+            <div class="core-values__icon"><i class="fas fa-th"></i></div>
+            <div class="core-values__label">HOLISM</div>
+          </div>
+          <div class="core-values__item">
+            <div class="core-values__icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <div class="core-values__label">INNOVATION</div>
+          </div>
+          <div class="core-values__item">
+            <div class="core-values__icon"><i class="fas fa-heart"></i></div>
+            <div class="core-values__label">EMPATHY</div>
+          </div>
+          <div class="core-values__item">
+            <div class="core-values__icon">
+              <i class="fas fa-exchange-alt"></i>
+            </div>
+            <div class="core-values__label">TRANSFORMATION</div>
+          </div>
+          <div class="core-values__item">
+            <div class="core-values__icon">
+              <i class="fas fa-hat-wizard"></i>
+            </div>
+            <div class="core-values__label">PRAGMATISM</div>
+          </div>
+          <div class="core-values__item">
+            <div class="core-values__icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <div class="core-values__label">PROFESSIONALISM</div>
+          </div>
+          <div class="core-values__item">
+            <div class="core-values__icon">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <div class="core-values__label">ALTRUISM</div>
+          </div>
+          <div class="core-values__item">
+            <div class="core-values__icon"><i class="fas fa-compass"></i></div>
+            <div class="core-values__label">ADVERSITY</div>
+          </div>
+        </div>
+      </section>
+      <section class="board-of-directors">
+        <h2>BOARD OF DIRECTORS</h2>
+        <div class="directors-grid">
+          <div class="director">
+            <img
+              src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
+              alt="Mr. Haji Saadat Khan"
+            />
+            <p>Mr. Haji Saadat Khan</p>
+          </div>
+          <div class="director">
+            <img
+              src="https://himspeshawar.edu.pk/wp-content/uploads/2022/03/Untitled-3-180x180.jpg"
+              alt="Mr. Omer Farooq Syed"
+            />
+            <p>Mr. Omer Farooq Syed</p>
+          </div>
+          <div class="director">
+            <img
+              src="https://himspeshawar.edu.pk/wp-content/uploads/2022/03/Untitled-2-180x180.jpg"
+              alt="Mr. Majeed Ullah"
+            />
+            <p>Mr. Majeed Ullah</p>
+          </div>
+          <div class="director">
+            <img
+              src="https://himspeshawar.edu.pk/wp-content/uploads/2022/03/a-2-180x180.jpg"
+              alt="Mr. Shah Fahad Khan"
+            />
+            <p>Mr. Shah Fahad Khan</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Map Section -->
+      <section class="map-section">
+        <h2>OUR LOCATION</h2>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3182.9220722922684!2d71.50061731555983!3d34.01586122725648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbff4a5f0f8c7%3A0x8d60bcfe3c6aeb5b!2sHayatabad%20Institute%20of%20Medical%20Sciences!5e0!3m2!1sen!2s!4v1658142946503!5m2!1sen!2s"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </section>
+
+
+                  <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__column">
+                <h3 class="footer__title">QUICK LINKS</h3>
+                <ul class="footer__links">
+                    <li><a href="#">Programs Offered</a></li>
+                    <li><a href="#">Scholarship Criteria</a></li>
+                    <li><a href="#">Affiliation & MOU</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h3 class="footer__title">ABOUT US</h3>
+                <ul class="footer__links">
+                    <li><a href="#">About UET</a></li>
+                    <li><a href="#">Vision Statement</a></li>
+                    <li><a href="#">Core Values</a></li>
+                    <li><a href="#">Board of Directors</a></li>
+                    <li><a href="#">Campus Location</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h3 class="footer__title">CONTACT US</h3>
+                <ul class="footer__contact">
+                    <li><i class="ri-phone-line"></i> Phone No: 03417012094</li>
+                    <li><i class="ri-whatsapp-line"></i> Mobile/WhatsApp: 03417012094</li>
+                    <li><i class="ri-mail-line"></i> Email: muhammadmaaz07@outlook.com</li>
+                    <li><i class="ri-map-pin-line"></i> Location: Peshawar</li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h3 class="footer__title">FOLLOW US ON FACEBOOK</h3>
+                <div class="footer__social">
+                    <input type="text" placeholder="Facebook URL">
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2023 Copyright - UET Peshawar</p>
+            <a href="#">Privacy Policy</a>
+        </div>
+    </footer>
+    </main>
+
+    <script src="../js/animations.js"></script>
+  </body>
+</html>

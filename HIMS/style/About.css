@@ -1,0 +1,349 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: hsl(230, 75%, 56%);
+  --title-color: hsl(230, 75%, 15%);
+  --text-color: hsl(230, 12%, 40%);
+  --body-color: hsl(230, 100%, 98%);
+  --container-color: hsl(230, 100%, 97%);
+  --border-color: hsl(230, 25%, 80%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Syne", sans-serif;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: .938rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== z index ==========*/
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1023px) {
+  :root {
+    --h2-font-size: 1.5rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+input,
+button {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.header-content{
+    margin-top: 89px;
+    border: 1px solid white;
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+#heading_about{
+    text-align: center;
+    margin-top: 50px;
+}
+/*=============== ABOUT ===============*/
+
+       /* About HIMS Section */
+       .about-hims {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 2rem;
+        background-color: #fff;
+    }
+
+    
+    .about-hims__content {
+        flex: 1 1 50%;
+        padding: 1rem;
+    }
+    .about-hims__content h2 {
+        color: #c70039;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .about-hims__content p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #555;
+        margin-bottom: 1rem;
+    }
+    .about-hims__content .learn-more {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background-color: #c70039;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 0.25rem;
+        transition: background-color 0.3s;
+    }
+    .about-hims__content .learn-more:hover {
+        background-color: #a5002d;
+    }
+    .about-hims__image {
+        flex: 1 1 50%;
+        width: 500px;
+        padding: 1rem;
+        text-align: center;
+    }
+    .about-hims__image img {
+        max-width: 100%;
+        border-radius: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+        .about-hims {
+            flex-direction: column;
+        }
+        .about-hims__content, .about-hims__image {
+            flex: 1 1 100%;
+        }
+    }
+
+    /*=============== Core Values Section ===============*/
+
+       /* Core Values Section */
+       .core-values {
+        text-align: center;
+        padding: 2rem;
+        background-color: #fff;
+    }
+    .core-values__title {
+        color: #c70039;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .core-values__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .core-values__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        transition: transform 0.5s, opacity 0.5s;
+        opacity: 0;
+        transform: translateY(20px);
+        background-color: #f9f9f9;
+        border-radius: 0.5rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+    }
+    .core-values__icon {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        border: 2px solid #ccc;
+        border-radius: 50%;
+        padding: 1rem;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    }
+    .core-values__label {
+        font-size: 1rem;
+        color: #555;
+    }
+
+    @media (max-width: 768px) {
+        .core-values__item {
+            width: 120px;
+            height: 120px;
+        }
+        .core-values__icon {
+            font-size: 1.5rem;
+            padding: 0.75rem;
+            width: 50px;
+            height: 50px;
+        }
+        .core-values__label {
+            font-size: 0.875rem;
+        }
+    }
+
+    .hr_core_values{
+     width: 50%;
+     margin-left: 285px;
+    }
+
+
+    /* Board Directors */
+.board-of-directors {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.board-of-directors h2 {
+    color: #d32f2f;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.directors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.director {
+    text-align: center;
+}
+
+.director img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.director p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .board-of-directors h2 {
+        font-size: 1.5rem;
+    }
+
+    .directors-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 20px 10px;
+    }
+
+    .board-of-directors h2 {
+        font-size: 1.2rem;
+    }
+
+    .directors-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .director p {
+        font-size: 0.9rem;
+    }
+}
+
+.map-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.map-section h2 {
+    color: #d32f2f;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    border: 2px solid #d32f2f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .map-section h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 20px 10px;
+    }
+
+    .map-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .map-container {
+        padding-bottom: 75%; /* Adjust aspect ratio for smaller screens */
+    }
+}
