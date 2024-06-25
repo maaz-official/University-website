@@ -9,6 +9,7 @@ Welcome to the HIMS Web Project repository! This project contains the source cod
 - [Project Overview](#project-overview)
 ![image](https://github.com/maaz-official/HIMS-website/assets/161757387/379432f1-26d6-48fd-8b03-e8dee5277226)
 ![image](https://github.com/maaz-official/HIMS-website/assets/161757387/ab20dd0c-6e66-4e8b-bc57-01768efaebed)
+![image](https://github.com/maaz-official/HIMS-website/assets/161757387/51e891bb-48c3-4d59-a741-b9d812458997)
 
 - [Features](#features)
 - [Installation](#installation)
